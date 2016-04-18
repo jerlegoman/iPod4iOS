@@ -15,4 +15,4 @@ Maybe in the future I will figure out how to add a photo browser that can show y
 
 
 
-Im currently trying to add small extra features to it like a backlight changer (A.K.A. Change the iOS device's screen brightness and a simple clock.
+Im currently trying to add small extra features to it like a backlight changer (A.K.A. Change the iOS device's screen brightness) and a simple clock.
