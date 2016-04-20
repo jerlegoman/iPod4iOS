@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2437B77E15B97FA900750117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244A6768158B1AB100952890 /* Foundation.framework */; };
+		2437B7C015B97FEC00750117 /* DCTArrayObservingTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A6790158B1AF600952890 /* DCTArrayObservingTableViewDataSource.m */; };
+		2437B7C215B97FEC00750117 /* DCTArrayTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A6792158B1AF600952890 /* DCTArrayTableViewDataSource.m */; };
+		2437B7C415B97FEC00750117 /* DCTCollapsableSectionTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A6794158B1AF600952890 /* DCTCollapsableSectionTableViewDataSource.m */; };
+		2437B7C615B97FEC00750117 /* DCTFetchedResultsTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A6796158B1AF600952890 /* DCTFetchedResultsTableViewDataSource.m */; };
+		2437B7C815B97FEC00750117 /* DCTHorizontalTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A6798158B1AF600952890 /* DCTHorizontalTableViewDataSource.m */; };
+		2437B7CA15B97FEC00750117 /* DCTInterspersedTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A679A158B1AF600952890 /* DCTInterspersedTableViewDataSource.m */; };
+		2437B7CC15B97FEC00750117 /* DCTObjectTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A679C158B1AF600952890 /* DCTObjectTableViewDataSource.m */; };
+		2437B7CE15B97FEC00750117 /* DCTParentTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A679E158B1AF600952890 /* DCTParentTableViewDataSource.m */; };
+		2437B7D015B97FEC00750117 /* DCTSplitTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A67A0158B1AF600952890 /* DCTSplitTableViewDataSource.m */; };
+		2437B7D215B97FEC00750117 /* DCTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A67A2158B1AF600952890 /* DCTTableViewCell.m */; };
+		2437B7D415B97FEC00750117 /* DCTTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A67A4158B1AF600952890 /* DCTTableViewDataSource.m */; };
+		2437B7D615B97FEC00750117 /* DCTTableViewDataSources.m in Sources */ = {isa = PBXBuildFile; fileRef = 24700B5015B8362100FA5843 /* DCTTableViewDataSources.m */; };
+		2437B7D815B97FEC00750117 /* UITableView+DCTNibRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A67AD158B1AF700952890 /* UITableView+DCTNibRegistration.m */; };
+		2437B7DA15B97FEC00750117 /* UITableView+DCTTableViewDataSources.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A67AF158B1AF700952890 /* UITableView+DCTTableViewDataSources.m */; };
+		2437B7FA15B9802A00750117 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2437B7F915B9802A00750117 /* UIKit.framework */; };
+		244A6777158B1AB100952890 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244A6776158B1AB100952890 /* SenTestingKit.framework */; };
+		244A677A158B1AB100952890 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244A6768158B1AB100952890 /* Foundation.framework */; };
+		244A6783158B1AB100952890 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 244A6781158B1AB100952890 /* InfoPlist.strings */; };
+		244A6786158B1AB100952890 /* DCTTableViewDataSourcesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A6785158B1AB100952890 /* DCTTableViewDataSourcesTests.m */; };
+		24700B3A15B835A100FA5843 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24700B3915B835A100FA5843 /* CoreFoundation.framework */; };
+		24700B4015B835A100FA5843 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24700B3E15B835A100FA5843 /* InfoPlist.strings */; };
+		24700B4A15B835C100FA5843 /* DisclosureIndicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 24700B4615B835C100FA5843 /* DisclosureIndicator.png */; };
+		24700B4B15B835C100FA5843 /* DisclosureIndicator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24700B4715B835C100FA5843 /* DisclosureIndicator@2x.png */; };
+		24700B4C15B835C100FA5843 /* DisclosureIndicatorHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 24700B4815B835C100FA5843 /* DisclosureIndicatorHighlighted.png */; };
+		24700B4D15B835C100FA5843 /* DisclosureIndicatorHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24700B4915B835C100FA5843 /* DisclosureIndicatorHighlighted@2x.png */; };
+		24C0298815B982F3009B1DE9 /* DCTArrayObservingTableViewDataSource.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 244A678F158B1AF600952890 /* DCTArrayObservingTableViewDataSource.h */; };
+		24C0298A15B982F3009B1DE9 /* DCTArrayTableViewDataSource.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 244A6791158B1AF600952890 /* DCTArrayTableViewDataSource.h */; };
+		24C0298C15B982F3009B1DE9 /* DCTCollapsableSectionTableViewDataSource.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 244A6793158B1AF600952890 /* DCTCollapsableSectionTableViewDataSource.h */; };
+		24C0298E15B982F3009B1DE9 /* DCTFetchedResultsTableViewDataSource.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 244A6795158B1AF600952890 /* DCTFetchedResultsTableViewDataSource.h */; };
+		24C0299015B982F3009B1DE9 /* DCTHorizontalTableViewDataSource.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 244A6797158B1AF600952890 /* DCTHorizontalTableViewDataSource.h */; };
+		24C0299215B982F3009B1DE9 /* DCTInterspersedTableViewDataSource.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 244A6799158B1AF600952890 /* DCTInterspersedTableViewDataSource.h */; };
+		24C0299415B982F3009B1DE9 /* DCTObjectTableViewDataSource.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 244A679B158B1AF600952890 /* DCTObjectTableViewDataSource.h */; };
+		24C0299615B982F3009B1DE9 /* DCTParentTableViewDataSource.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 244A679D158B1AF600952890 /* DCTParentTableViewDataSource.h */; };
+		24C0299815B982F3009B1DE9 /* DCTSplitTableViewDataSource.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 244A679F158B1AF600952890 /* DCTSplitTableViewDataSource.h */; };
+		24C0299A15B982F3009B1DE9 /* DCTTableViewCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 244A67A1158B1AF600952890 /* DCTTableViewCell.h */; };
+		24C0299C15B982F3009B1DE9 /* DCTTableViewDataSource.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 244A67A3158B1AF600952890 /* DCTTableViewDataSource.h */; };
+		24C0299E15B982F3009B1DE9 /* DCTTableViewDataSources.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 244A67A5158B1AF600952890 /* DCTTableViewDataSources.h */; };
+		24C029A015B982F3009B1DE9 /* UITableView+DCTNibRegistration.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 244A67AC158B1AF700952890 /* UITableView+DCTNibRegistration.h */; };
+		24C029A215B982F3009B1DE9 /* UITableView+DCTTableViewDataSources.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 244A67AE158B1AF700952890 /* UITableView+DCTTableViewDataSources.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2437B7F715B9801C00750117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244A675C158B1AB100952890 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24700B3715B835A100FA5843;
+			remoteInfo = DCTTableViewDataSourcesBundle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2437B77B15B97FA900750117 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				24C0298815B982F3009B1DE9 /* DCTArrayObservingTableViewDataSource.h in CopyFiles */,
+				24C0298A15B982F3009B1DE9 /* DCTArrayTableViewDataSource.h in CopyFiles */,
+				24C0298C15B982F3009B1DE9 /* DCTCollapsableSectionTableViewDataSource.h in CopyFiles */,
+				24C0298E15B982F3009B1DE9 /* DCTFetchedResultsTableViewDataSource.h in CopyFiles */,
+				24C0299015B982F3009B1DE9 /* DCTHorizontalTableViewDataSource.h in CopyFiles */,
+				24C0299215B982F3009B1DE9 /* DCTInterspersedTableViewDataSource.h in CopyFiles */,
+				24C0299415B982F3009B1DE9 /* DCTObjectTableViewDataSource.h in CopyFiles */,
+				24C0299615B982F3009B1DE9 /* DCTParentTableViewDataSource.h in CopyFiles */,
+				24C0299815B982F3009B1DE9 /* DCTSplitTableViewDataSource.h in CopyFiles */,
+				24C0299A15B982F3009B1DE9 /* DCTTableViewCell.h in CopyFiles */,
+				24C0299C15B982F3009B1DE9 /* DCTTableViewDataSource.h in CopyFiles */,
+				24C0299E15B982F3009B1DE9 /* DCTTableViewDataSources.h in CopyFiles */,
+				24C029A015B982F3009B1DE9 /* UITableView+DCTNibRegistration.h in CopyFiles */,
+				24C029A215B982F3009B1DE9 /* UITableView+DCTTableViewDataSources.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2437B77D15B97FA900750117 /* libDCTTableViewDataSources.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDCTTableViewDataSources.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2437B7F915B9802A00750117 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		244A6768158B1AB100952890 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		244A6775158B1AB100952890 /* DCTTableViewDataSourcesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCTTableViewDataSourcesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		244A6776158B1AB100952890 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		244A6780158B1AB100952890 /* DCTTableViewDataSourcesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DCTTableViewDataSourcesTests-Info.plist"; sourceTree = "<group>"; };
+		244A6782158B1AB100952890 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		244A6784158B1AB100952890 /* DCTTableViewDataSourcesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTTableViewDataSourcesTests.h; sourceTree = "<group>"; };
+		244A6785158B1AB100952890 /* DCTTableViewDataSourcesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTTableViewDataSourcesTests.m; sourceTree = "<group>"; };
+		244A678F158B1AF600952890 /* DCTArrayObservingTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DCTArrayObservingTableViewDataSource.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		244A6790158B1AF600952890 /* DCTArrayObservingTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DCTArrayObservingTableViewDataSource.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		244A6791158B1AF600952890 /* DCTArrayTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DCTArrayTableViewDataSource.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		244A6792158B1AF600952890 /* DCTArrayTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTArrayTableViewDataSource.m; sourceTree = "<group>"; };
+		244A6793158B1AF600952890 /* DCTCollapsableSectionTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTCollapsableSectionTableViewDataSource.h; sourceTree = "<group>"; };
+		244A6794158B1AF600952890 /* DCTCollapsableSectionTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTCollapsableSectionTableViewDataSource.m; sourceTree = "<group>"; };
+		244A6795158B1AF600952890 /* DCTFetchedResultsTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTFetchedResultsTableViewDataSource.h; sourceTree = "<group>"; };
+		244A6796158B1AF600952890 /* DCTFetchedResultsTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTFetchedResultsTableViewDataSource.m; sourceTree = "<group>"; };
+		244A6797158B1AF600952890 /* DCTHorizontalTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTHorizontalTableViewDataSource.h; sourceTree = "<group>"; };
+		244A6798158B1AF600952890 /* DCTHorizontalTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTHorizontalTableViewDataSource.m; sourceTree = "<group>"; };
+		244A6799158B1AF600952890 /* DCTInterspersedTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTInterspersedTableViewDataSource.h; sourceTree = "<group>"; };
+		244A679A158B1AF600952890 /* DCTInterspersedTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTInterspersedTableViewDataSource.m; sourceTree = "<group>"; };
+		244A679B158B1AF600952890 /* DCTObjectTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTObjectTableViewDataSource.h; sourceTree = "<group>"; };
+		244A679C158B1AF600952890 /* DCTObjectTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTObjectTableViewDataSource.m; sourceTree = "<group>"; };
+		244A679D158B1AF600952890 /* DCTParentTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTParentTableViewDataSource.h; sourceTree = "<group>"; };
+		244A679E158B1AF600952890 /* DCTParentTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTParentTableViewDataSource.m; sourceTree = "<group>"; };
+		244A679F158B1AF600952890 /* DCTSplitTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTSplitTableViewDataSource.h; sourceTree = "<group>"; };
+		244A67A0158B1AF600952890 /* DCTSplitTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTSplitTableViewDataSource.m; sourceTree = "<group>"; };
+		244A67A1158B1AF600952890 /* DCTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTTableViewCell.h; sourceTree = "<group>"; };
+		244A67A2158B1AF600952890 /* DCTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTTableViewCell.m; sourceTree = "<group>"; };
+		244A67A3158B1AF600952890 /* DCTTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTTableViewDataSource.h; sourceTree = "<group>"; };
+		244A67A4158B1AF600952890 /* DCTTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTTableViewDataSource.m; sourceTree = "<group>"; };
+		244A67A5158B1AF600952890 /* DCTTableViewDataSources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTTableViewDataSources.h; sourceTree = "<group>"; };
+		244A67AC158B1AF700952890 /* UITableView+DCTNibRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DCTNibRegistration.h"; sourceTree = "<group>"; };
+		244A67AD158B1AF700952890 /* UITableView+DCTNibRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DCTNibRegistration.m"; sourceTree = "<group>"; };
+		244A67AE158B1AF700952890 /* UITableView+DCTTableViewDataSources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DCTTableViewDataSources.h"; sourceTree = "<group>"; };
+		244A67AF158B1AF700952890 /* UITableView+DCTTableViewDataSources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DCTTableViewDataSources.m"; sourceTree = "<group>"; };
+		24700B3815B835A100FA5843 /* DCTTableViewDataSources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCTTableViewDataSources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		24700B3915B835A100FA5843 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		24700B3D15B835A100FA5843 /* DCTTableViewDataSourcesBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DCTTableViewDataSourcesBundle-Info.plist"; sourceTree = "<group>"; };
+		24700B3F15B835A100FA5843 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24700B4115B835A100FA5843 /* DCTTableViewDataSourcesBundle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCTTableViewDataSourcesBundle-Prefix.pch"; sourceTree = "<group>"; };
+		24700B4615B835C100FA5843 /* DisclosureIndicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DisclosureIndicator.png; sourceTree = "<group>"; };
+		24700B4715B835C100FA5843 /* DisclosureIndicator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DisclosureIndicator@2x.png"; sourceTree = "<group>"; };
+		24700B4815B835C100FA5843 /* DisclosureIndicatorHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DisclosureIndicatorHighlighted.png; sourceTree = "<group>"; };
+		24700B4915B835C100FA5843 /* DisclosureIndicatorHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DisclosureIndicatorHighlighted@2x.png"; sourceTree = "<group>"; };
+		24700B5015B8362100FA5843 /* DCTTableViewDataSources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTTableViewDataSources.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2437B77A15B97FA900750117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2437B7FA15B9802A00750117 /* UIKit.framework in Frameworks */,
+				2437B77E15B97FA900750117 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244A6771158B1AB100952890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244A6777158B1AB100952890 /* SenTestingKit.framework in Frameworks */,
+				244A677A158B1AB100952890 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24700B3515B835A100FA5843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24700B3A15B835A100FA5843 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		244A675A158B1AB100952890 = {
+			isa = PBXGroup;
+			children = (
+				244A676A158B1AB100952890 /* DCTTableViewDataSources */,
+				244A677E158B1AB100952890 /* DCTTableViewDataSourcesTests */,
+				24700B3B15B835A100FA5843 /* DCTTableViewDataSourcesBundle */,
+				244A6767158B1AB100952890 /* Frameworks */,
+				244A6766158B1AB100952890 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		244A6766158B1AB100952890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				244A6775158B1AB100952890 /* DCTTableViewDataSourcesTests.octest */,
+				24700B3815B835A100FA5843 /* DCTTableViewDataSources.bundle */,
+				2437B77D15B97FA900750117 /* libDCTTableViewDataSources.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		244A6767158B1AB100952890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2437B7F915B9802A00750117 /* UIKit.framework */,
+				244A6768158B1AB100952890 /* Foundation.framework */,
+				244A6776158B1AB100952890 /* SenTestingKit.framework */,
+				24700B3915B835A100FA5843 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		244A676A158B1AB100952890 /* DCTTableViewDataSources */ = {
+			isa = PBXGroup;
+			children = (
+				244A678F158B1AF600952890 /* DCTArrayObservingTableViewDataSource.h */,
+				244A6790158B1AF600952890 /* DCTArrayObservingTableViewDataSource.m */,
+				244A6791158B1AF600952890 /* DCTArrayTableViewDataSource.h */,
+				244A6792158B1AF600952890 /* DCTArrayTableViewDataSource.m */,
+				244A6793158B1AF600952890 /* DCTCollapsableSectionTableViewDataSource.h */,
+				244A6794158B1AF600952890 /* DCTCollapsableSectionTableViewDataSource.m */,
+				244A6795158B1AF600952890 /* DCTFetchedResultsTableViewDataSource.h */,
+				244A6796158B1AF600952890 /* DCTFetchedResultsTableViewDataSource.m */,
+				244A6797158B1AF600952890 /* DCTHorizontalTableViewDataSource.h */,
+				244A6798158B1AF600952890 /* DCTHorizontalTableViewDataSource.m */,
+				244A6799158B1AF600952890 /* DCTInterspersedTableViewDataSource.h */,
+				244A679A158B1AF600952890 /* DCTInterspersedTableViewDataSource.m */,
+				244A679B158B1AF600952890 /* DCTObjectTableViewDataSource.h */,
+				244A679C158B1AF600952890 /* DCTObjectTableViewDataSource.m */,
+				244A679D158B1AF600952890 /* DCTParentTableViewDataSource.h */,
+				244A679E158B1AF600952890 /* DCTParentTableViewDataSource.m */,
+				244A679F158B1AF600952890 /* DCTSplitTableViewDataSource.h */,
+				244A67A0158B1AF600952890 /* DCTSplitTableViewDataSource.m */,
+				244A67A1158B1AF600952890 /* DCTTableViewCell.h */,
+				244A67A2158B1AF600952890 /* DCTTableViewCell.m */,
+				244A67A3158B1AF600952890 /* DCTTableViewDataSource.h */,
+				244A67A4158B1AF600952890 /* DCTTableViewDataSource.m */,
+				244A67A5158B1AF600952890 /* DCTTableViewDataSources.h */,
+				24700B5015B8362100FA5843 /* DCTTableViewDataSources.m */,
+				244A67AC158B1AF700952890 /* UITableView+DCTNibRegistration.h */,
+				244A67AD158B1AF700952890 /* UITableView+DCTNibRegistration.m */,
+				244A67AE158B1AF700952890 /* UITableView+DCTTableViewDataSources.h */,
+				244A67AF158B1AF700952890 /* UITableView+DCTTableViewDataSources.m */,
+			);
+			path = DCTTableViewDataSources;
+			sourceTree = "<group>";
+		};
+		244A677E158B1AB100952890 /* DCTTableViewDataSourcesTests */ = {
+			isa = PBXGroup;
+			children = (
+				244A6784158B1AB100952890 /* DCTTableViewDataSourcesTests.h */,
+				244A6785158B1AB100952890 /* DCTTableViewDataSourcesTests.m */,
+				244A677F158B1AB100952890 /* Supporting Files */,
+			);
+			path = DCTTableViewDataSourcesTests;
+			sourceTree = "<group>";
+		};
+		244A677F158B1AB100952890 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				244A6780158B1AB100952890 /* DCTTableViewDataSourcesTests-Info.plist */,
+				244A6781158B1AB100952890 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24700B3B15B835A100FA5843 /* DCTTableViewDataSourcesBundle */ = {
+			isa = PBXGroup;
+			children = (
+				24700B4615B835C100FA5843 /* DisclosureIndicator.png */,
+				24700B4715B835C100FA5843 /* DisclosureIndicator@2x.png */,
+				24700B4815B835C100FA5843 /* DisclosureIndicatorHighlighted.png */,
+				24700B4915B835C100FA5843 /* DisclosureIndicatorHighlighted@2x.png */,
+				24700B3C15B835A100FA5843 /* Supporting Files */,
+			);
+			path = DCTTableViewDataSourcesBundle;
+			sourceTree = "<group>";
+		};
+		24700B3C15B835A100FA5843 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24700B3D15B835A100FA5843 /* DCTTableViewDataSourcesBundle-Info.plist */,
+				24700B3E15B835A100FA5843 /* InfoPlist.strings */,
+				24700B4115B835A100FA5843 /* DCTTableViewDataSourcesBundle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2437B77C15B97FA900750117 /* DCTTableViewDataSources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2437B78615B97FA900750117 /* Build configuration list for PBXNativeTarget "DCTTableViewDataSources" */;
+			buildPhases = (
+				2437B77915B97FA900750117 /* Sources */,
+				2437B77A15B97FA900750117 /* Frameworks */,
+				2437B77B15B97FA900750117 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2437B7F815B9801C00750117 /* PBXTargetDependency */,
+			);
+			name = DCTTableViewDataSources;
+			productName = DCTTableViewDataSources;
+			productReference = 2437B77D15B97FA900750117 /* libDCTTableViewDataSources.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		244A6774158B1AB100952890 /* DCTTableViewDataSourcesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244A678C158B1AB100952890 /* Build configuration list for PBXNativeTarget "DCTTableViewDataSourcesTests" */;
+			buildPhases = (
+				244A6770158B1AB100952890 /* Sources */,
+				244A6771158B1AB100952890 /* Frameworks */,
+				244A6772158B1AB100952890 /* Resources */,
+				244A6773158B1AB100952890 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCTTableViewDataSourcesTests;
+			productName = DCTTableViewDataSourcesTests;
+			productReference = 244A6775158B1AB100952890 /* DCTTableViewDataSourcesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		24700B3715B835A100FA5843 /* DCTTableViewDataSourcesBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24700B4415B835A100FA5843 /* Build configuration list for PBXNativeTarget "DCTTableViewDataSourcesBundle" */;
+			buildPhases = (
+				24700B3415B835A100FA5843 /* Sources */,
+				24700B3515B835A100FA5843 /* Frameworks */,
+				24700B3615B835A100FA5843 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCTTableViewDataSourcesBundle;
+			productName = DCTTableViewDataSourcesBundle;
+			productReference = 24700B3815B835A100FA5843 /* DCTTableViewDataSources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		244A675C158B1AB100952890 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Daniel Tull";
+			};
+			buildConfigurationList = 244A675F158B1AB100952890 /* Build configuration list for PBXProject "DCTTableViewDataSources" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 244A675A158B1AB100952890;
+			productRefGroup = 244A6766158B1AB100952890 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2437B77C15B97FA900750117 /* DCTTableViewDataSources */,
+				244A6774158B1AB100952890 /* DCTTableViewDataSourcesTests */,
+				24700B3715B835A100FA5843 /* DCTTableViewDataSourcesBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		244A6772158B1AB100952890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244A6783158B1AB100952890 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24700B3615B835A100FA5843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24700B4015B835A100FA5843 /* InfoPlist.strings in Resources */,
+				24700B4A15B835C100FA5843 /* DisclosureIndicator.png in Resources */,
+				24700B4B15B835C100FA5843 /* DisclosureIndicator@2x.png in Resources */,
+				24700B4C15B835C100FA5843 /* DisclosureIndicatorHighlighted.png in Resources */,
+				24700B4D15B835C100FA5843 /* DisclosureIndicatorHighlighted@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		244A6773158B1AB100952890 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2437B77915B97FA900750117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2437B7C015B97FEC00750117 /* DCTArrayObservingTableViewDataSource.m in Sources */,
+				2437B7C215B97FEC00750117 /* DCTArrayTableViewDataSource.m in Sources */,
+				2437B7C415B97FEC00750117 /* DCTCollapsableSectionTableViewDataSource.m in Sources */,
+				2437B7C615B97FEC00750117 /* DCTFetchedResultsTableViewDataSource.m in Sources */,
+				2437B7C815B97FEC00750117 /* DCTHorizontalTableViewDataSource.m in Sources */,
+				2437B7CA15B97FEC00750117 /* DCTInterspersedTableViewDataSource.m in Sources */,
+				2437B7CC15B97FEC00750117 /* DCTObjectTableViewDataSource.m in Sources */,
+				2437B7CE15B97FEC00750117 /* DCTParentTableViewDataSource.m in Sources */,
+				2437B7D015B97FEC00750117 /* DCTSplitTableViewDataSource.m in Sources */,
+				2437B7D215B97FEC00750117 /* DCTTableViewCell.m in Sources */,
+				2437B7D415B97FEC00750117 /* DCTTableViewDataSource.m in Sources */,
+				2437B7D615B97FEC00750117 /* DCTTableViewDataSources.m in Sources */,
+				2437B7D815B97FEC00750117 /* UITableView+DCTNibRegistration.m in Sources */,
+				2437B7DA15B97FEC00750117 /* UITableView+DCTTableViewDataSources.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244A6770158B1AB100952890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244A6786158B1AB100952890 /* DCTTableViewDataSourcesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24700B3415B835A100FA5843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2437B7F815B9801C00750117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24700B3715B835A100FA5843 /* DCTTableViewDataSourcesBundle */;
+			targetProxy = 2437B7F715B9801C00750117 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		244A6781158B1AB100952890 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244A6782158B1AB100952890 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		24700B3E15B835A100FA5843 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24700B3F15B835A100FA5843 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2437B78715B97FA900750117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				DSTROOT = /tmp/DCTTableViewDataSources.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2437B78815B97FA900750117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				DSTROOT = /tmp/DCTTableViewDataSources.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		244A6787158B1AB100952890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		244A6788158B1AB100952890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		244A678D158B1AB100952890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTTableViewDataSources/DCTTableViewDataSources-Prefix.pch";
+				INFOPLIST_FILE = "DCTTableViewDataSourcesTests/DCTTableViewDataSourcesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		244A678E158B1AB100952890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTTableViewDataSources/DCTTableViewDataSources-Prefix.pch";
+				INFOPLIST_FILE = "DCTTableViewDataSourcesTests/DCTTableViewDataSourcesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		24700B4215B835A100FA5843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTTableViewDataSourcesBundle/DCTTableViewDataSourcesBundle-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "DCTTableViewDataSourcesBundle/DCTTableViewDataSourcesBundle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = DCTTableViewDataSources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		24700B4315B835A100FA5843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTTableViewDataSourcesBundle/DCTTableViewDataSourcesBundle-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "DCTTableViewDataSourcesBundle/DCTTableViewDataSourcesBundle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = DCTTableViewDataSources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2437B78615B97FA900750117 /* Build configuration list for PBXNativeTarget "DCTTableViewDataSources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2437B78715B97FA900750117 /* Debug */,
+				2437B78815B97FA900750117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244A675F158B1AB100952890 /* Build configuration list for PBXProject "DCTTableViewDataSources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244A6787158B1AB100952890 /* Debug */,
+				244A6788158B1AB100952890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244A678C158B1AB100952890 /* Build configuration list for PBXNativeTarget "DCTTableViewDataSourcesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244A678D158B1AB100952890 /* Debug */,
+				244A678E158B1AB100952890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24700B4415B835A100FA5843 /* Build configuration list for PBXNativeTarget "DCTTableViewDataSourcesBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24700B4215B835A100FA5843 /* Debug */,
+				24700B4315B835A100FA5843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 244A675C158B1AB100952890 /* Project object */;
+}

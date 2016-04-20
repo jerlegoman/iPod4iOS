@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24700CB815B8495000FA5843 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24700CB715B8495000FA5843 /* CoreFoundation.framework */; };
+		24700CBE15B8495000FA5843 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24700CBC15B8495000FA5843 /* InfoPlist.strings */; };
+		24700CC515B849B500FA5843 /* DCTMusicModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24700CC315B849B500FA5843 /* DCTMusicModel.xcdatamodeld */; };
+		24700D7B15B8579C00FA5843 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		24700D7C15B8579C00FA5843 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		24700D7D15B8579C00FA5843 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		24700D8315B8579C00FA5843 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24700D8115B8579C00FA5843 /* InfoPlist.strings */; };
+		24700D8515B8579C00FA5843 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24700D8415B8579C00FA5843 /* main.m */; };
+		24700D8915B8579C00FA5843 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24700D8815B8579C00FA5843 /* AppDelegate.m */; };
+		24700D8E15B857B000FA5843 /* DCTMusicModel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24700CB615B8495000FA5843 /* DCTMusicModel.bundle */; };
+		24C028F915B9818F009B1DE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		24C0290615B981AC009B1DE9 /* DCTAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 24700D3D15B853B300FA5843 /* DCTAlbum.m */; };
+		24C0290815B981AC009B1DE9 /* DCTArtist.m in Sources */ = {isa = PBXBuildFile; fileRef = 24700D3F15B853B300FA5843 /* DCTArtist.m */; };
+		24C0290A15B981AC009B1DE9 /* DCTComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 24700D4115B853B300FA5843 /* DCTComposer.m */; };
+		24C0290C15B981AC009B1DE9 /* DCTGenre.m in Sources */ = {isa = PBXBuildFile; fileRef = 24700D4515B853B300FA5843 /* DCTGenre.m */; };
+		24C0290E15B981AC009B1DE9 /* DCTPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 24700D4715B853B300FA5843 /* DCTPlaylist.m */; };
+		24C0291015B981AC009B1DE9 /* DCTSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 24700D4915B853B300FA5843 /* DCTSong.m */; };
+		24C0291215B981AC009B1DE9 /* _DCTAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 24700D4C15B853B300FA5843 /* _DCTAlbum.m */; };
+		24C0291415B981AC009B1DE9 /* _DCTArtist.m in Sources */ = {isa = PBXBuildFile; fileRef = 24700D4E15B853B300FA5843 /* _DCTArtist.m */; };
+		24C0291615B981AC009B1DE9 /* _DCTComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 24700D5015B853B300FA5843 /* _DCTComposer.m */; };
+		24C0291815B981AC009B1DE9 /* _DCTGenre.m in Sources */ = {isa = PBXBuildFile; fileRef = 24700D5415B853B300FA5843 /* _DCTGenre.m */; };
+		24C0291A15B981AC009B1DE9 /* _DCTPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 24700D5615B853B300FA5843 /* _DCTPlaylist.m */; };
+		24C0291C15B981AC009B1DE9 /* _DCTSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 24700D5815B853B300FA5843 /* _DCTSong.m */; };
+		24C0291E15B981AE009B1DE9 /* DCTAlbum.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24700D3C15B853B300FA5843 /* DCTAlbum.h */; };
+		24C0292015B981AE009B1DE9 /* DCTArtist.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24700D3E15B853B300FA5843 /* DCTArtist.h */; };
+		24C0292215B981AE009B1DE9 /* DCTComposer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24700D4015B853B300FA5843 /* DCTComposer.h */; };
+		24C0292415B981AE009B1DE9 /* DCTGenre.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24700D4415B853B300FA5843 /* DCTGenre.h */; };
+		24C0292615B981AE009B1DE9 /* DCTPlaylist.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24700D4615B853B300FA5843 /* DCTPlaylist.h */; };
+		24C0292815B981AE009B1DE9 /* DCTSong.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24700D4815B853B300FA5843 /* DCTSong.h */; };
+		24C0292A15B981AE009B1DE9 /* _DCTAlbum.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24700D4B15B853B300FA5843 /* _DCTAlbum.h */; };
+		24C0292C15B981AE009B1DE9 /* _DCTArtist.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24700D4D15B853B300FA5843 /* _DCTArtist.h */; };
+		24C0292E15B981AE009B1DE9 /* _DCTComposer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24700D4F15B853B300FA5843 /* _DCTComposer.h */; };
+		24C0293015B981AE009B1DE9 /* _DCTGenre.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24700D5315B853B300FA5843 /* _DCTGenre.h */; };
+		24C0293215B981AE009B1DE9 /* _DCTPlaylist.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24700D5515B853B300FA5843 /* _DCTPlaylist.h */; };
+		24C0293415B981AE009B1DE9 /* _DCTSong.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24700D5715B853B300FA5843 /* _DCTSong.h */; };
+		24C0293A15B98215009B1DE9 /* DCTMusicModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24700CA715B843E200FA5843 /* DCTMusicModel.h */; };
+		24C0293B15B98218009B1DE9 /* DCTMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24700CA915B843E200FA5843 /* DCTMusicModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24C0293615B981D3009B1DE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24700CB515B8495000FA5843;
+			remoteInfo = DCTMusicModelBundle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		24C028F615B9818F009B1DE9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				24C0293A15B98215009B1DE9 /* DCTMusicModel.h in CopyFiles */,
+				24C0291E15B981AE009B1DE9 /* DCTAlbum.h in CopyFiles */,
+				24C0292015B981AE009B1DE9 /* DCTArtist.h in CopyFiles */,
+				24C0292215B981AE009B1DE9 /* DCTComposer.h in CopyFiles */,
+				24C0292415B981AE009B1DE9 /* DCTGenre.h in CopyFiles */,
+				24C0292615B981AE009B1DE9 /* DCTPlaylist.h in CopyFiles */,
+				24C0292815B981AE009B1DE9 /* DCTSong.h in CopyFiles */,
+				24C0292A15B981AE009B1DE9 /* _DCTAlbum.h in CopyFiles */,
+				24C0292C15B981AE009B1DE9 /* _DCTArtist.h in CopyFiles */,
+				24C0292E15B981AE009B1DE9 /* _DCTComposer.h in CopyFiles */,
+				24C0293015B981AE009B1DE9 /* _DCTGenre.h in CopyFiles */,
+				24C0293215B981AE009B1DE9 /* _DCTPlaylist.h in CopyFiles */,
+				24C0293415B981AE009B1DE9 /* _DCTSong.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		24328209104BD8270015874B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		24700CA615B843E200FA5843 /* DCTMusicModel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCTMusicModel-Prefix.pch"; sourceTree = "<group>"; };
+		24700CA715B843E200FA5843 /* DCTMusicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTMusicModel.h; sourceTree = "<group>"; };
+		24700CA915B843E200FA5843 /* DCTMusicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTMusicModel.m; sourceTree = "<group>"; };
+		24700CB615B8495000FA5843 /* DCTMusicModel.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCTMusicModel.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		24700CB715B8495000FA5843 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		24700CBB15B8495000FA5843 /* DCTMusicModelBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DCTMusicModelBundle-Info.plist"; sourceTree = "<group>"; };
+		24700CBD15B8495000FA5843 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24700CBF15B8495000FA5843 /* DCTMusicModelBundle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCTMusicModelBundle-Prefix.pch"; sourceTree = "<group>"; };
+		24700CC415B849B500FA5843 /* DCTMusicModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DCTMusicModel.xcdatamodel; sourceTree = "<group>"; };
+		24700D3C15B853B300FA5843 /* DCTAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTAlbum.h; sourceTree = "<group>"; };
+		24700D3D15B853B300FA5843 /* DCTAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTAlbum.m; sourceTree = "<group>"; };
+		24700D3E15B853B300FA5843 /* DCTArtist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTArtist.h; sourceTree = "<group>"; };
+		24700D3F15B853B300FA5843 /* DCTArtist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTArtist.m; sourceTree = "<group>"; };
+		24700D4015B853B300FA5843 /* DCTComposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTComposer.h; sourceTree = "<group>"; };
+		24700D4115B853B300FA5843 /* DCTComposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTComposer.m; sourceTree = "<group>"; };
+		24700D4415B853B300FA5843 /* DCTGenre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTGenre.h; sourceTree = "<group>"; };
+		24700D4515B853B300FA5843 /* DCTGenre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTGenre.m; sourceTree = "<group>"; };
+		24700D4615B853B300FA5843 /* DCTPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTPlaylist.h; sourceTree = "<group>"; };
+		24700D4715B853B300FA5843 /* DCTPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTPlaylist.m; sourceTree = "<group>"; };
+		24700D4815B853B300FA5843 /* DCTSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTSong.h; sourceTree = "<group>"; };
+		24700D4915B853B300FA5843 /* DCTSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTSong.m; sourceTree = "<group>"; };
+		24700D4B15B853B300FA5843 /* _DCTAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DCTAlbum.h; sourceTree = "<group>"; };
+		24700D4C15B853B300FA5843 /* _DCTAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DCTAlbum.m; sourceTree = "<group>"; };
+		24700D4D15B853B300FA5843 /* _DCTArtist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DCTArtist.h; sourceTree = "<group>"; };
+		24700D4E15B853B300FA5843 /* _DCTArtist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DCTArtist.m; sourceTree = "<group>"; };
+		24700D4F15B853B300FA5843 /* _DCTComposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DCTComposer.h; sourceTree = "<group>"; };
+		24700D5015B853B300FA5843 /* _DCTComposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DCTComposer.m; sourceTree = "<group>"; };
+		24700D5315B853B300FA5843 /* _DCTGenre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DCTGenre.h; sourceTree = "<group>"; };
+		24700D5415B853B300FA5843 /* _DCTGenre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DCTGenre.m; sourceTree = "<group>"; };
+		24700D5515B853B300FA5843 /* _DCTPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DCTPlaylist.h; sourceTree = "<group>"; };
+		24700D5615B853B300FA5843 /* _DCTPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DCTPlaylist.m; sourceTree = "<group>"; };
+		24700D5715B853B300FA5843 /* _DCTSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DCTSong.h; sourceTree = "<group>"; };
+		24700D5815B853B300FA5843 /* _DCTSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DCTSong.m; sourceTree = "<group>"; };
+		24700D7915B8579C00FA5843 /* DCTMusicModelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCTMusicModelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24700D8015B8579C00FA5843 /* DCTMusicModelApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DCTMusicModelApp-Info.plist"; sourceTree = "<group>"; };
+		24700D8215B8579C00FA5843 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24700D8415B8579C00FA5843 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24700D8615B8579C00FA5843 /* DCTMusicModelApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCTMusicModelApp-Prefix.pch"; sourceTree = "<group>"; };
+		24700D8715B8579C00FA5843 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24700D8815B8579C00FA5843 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24C028F815B9818F009B1DE9 /* libDCTMusicModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDCTMusicModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24700CB315B8495000FA5843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24700CB815B8495000FA5843 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24700D7615B8579C00FA5843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24700D7B15B8579C00FA5843 /* UIKit.framework in Frameworks */,
+				24700D7C15B8579C00FA5843 /* Foundation.framework in Frameworks */,
+				24700D7D15B8579C00FA5843 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C028F515B9818F009B1DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C028F915B9818F009B1DE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24700CB615B8495000FA5843 /* DCTMusicModel.bundle */,
+				24700D7915B8579C00FA5843 /* DCTMusicModelApp.app */,
+				24C028F815B9818F009B1DE9 /* libDCTMusicModel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24700CA415B843E200FA5843 /* DCTMusicModel */ = {
+			isa = PBXGroup;
+			children = (
+				24700CA715B843E200FA5843 /* DCTMusicModel.h */,
+				24700CA915B843E200FA5843 /* DCTMusicModel.m */,
+				24700D3B15B853B300FA5843 /* Model */,
+				24700CA515B843E200FA5843 /* Supporting Files */,
+			);
+			path = DCTMusicModel;
+			sourceTree = "<group>";
+		};
+		24700CA515B843E200FA5843 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24700CA615B843E200FA5843 /* DCTMusicModel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24700CB915B8495000FA5843 /* DCTMusicModelBundle */ = {
+			isa = PBXGroup;
+			children = (
+				24700CC315B849B500FA5843 /* DCTMusicModel.xcdatamodeld */,
+				24700CBA15B8495000FA5843 /* Supporting Files */,
+			);
+			path = DCTMusicModelBundle;
+			sourceTree = "<group>";
+		};
+		24700CBA15B8495000FA5843 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24700CBB15B8495000FA5843 /* DCTMusicModelBundle-Info.plist */,
+				24700CBC15B8495000FA5843 /* InfoPlist.strings */,
+				24700CBF15B8495000FA5843 /* DCTMusicModelBundle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24700D3B15B853B300FA5843 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24700D3C15B853B300FA5843 /* DCTAlbum.h */,
+				24700D3D15B853B300FA5843 /* DCTAlbum.m */,
+				24700D3E15B853B300FA5843 /* DCTArtist.h */,
+				24700D3F15B853B300FA5843 /* DCTArtist.m */,
+				24700D4015B853B300FA5843 /* DCTComposer.h */,
+				24700D4115B853B300FA5843 /* DCTComposer.m */,
+				24700D4415B853B300FA5843 /* DCTGenre.h */,
+				24700D4515B853B300FA5843 /* DCTGenre.m */,
+				24700D4615B853B300FA5843 /* DCTPlaylist.h */,
+				24700D4715B853B300FA5843 /* DCTPlaylist.m */,
+				24700D4815B853B300FA5843 /* DCTSong.h */,
+				24700D4915B853B300FA5843 /* DCTSong.m */,
+				24700D4A15B853B300FA5843 /* Generated */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24700D4A15B853B300FA5843 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				24700D4B15B853B300FA5843 /* _DCTAlbum.h */,
+				24700D4C15B853B300FA5843 /* _DCTAlbum.m */,
+				24700D4D15B853B300FA5843 /* _DCTArtist.h */,
+				24700D4E15B853B300FA5843 /* _DCTArtist.m */,
+				24700D4F15B853B300FA5843 /* _DCTComposer.h */,
+				24700D5015B853B300FA5843 /* _DCTComposer.m */,
+				24700D5315B853B300FA5843 /* _DCTGenre.h */,
+				24700D5415B853B300FA5843 /* _DCTGenre.m */,
+				24700D5515B853B300FA5843 /* _DCTPlaylist.h */,
+				24700D5615B853B300FA5843 /* _DCTPlaylist.m */,
+				24700D5715B853B300FA5843 /* _DCTSong.h */,
+				24700D5815B853B300FA5843 /* _DCTSong.m */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		24700D7E15B8579C00FA5843 /* DCTMusicModelApp */ = {
+			isa = PBXGroup;
+			children = (
+				24700D8715B8579C00FA5843 /* AppDelegate.h */,
+				24700D8815B8579C00FA5843 /* AppDelegate.m */,
+				24700D7F15B8579C00FA5843 /* Supporting Files */,
+			);
+			path = DCTMusicModelApp;
+			sourceTree = "<group>";
+		};
+		24700D7F15B8579C00FA5843 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24700D8015B8579C00FA5843 /* DCTMusicModelApp-Info.plist */,
+				24700D8115B8579C00FA5843 /* InfoPlist.strings */,
+				24700D8415B8579C00FA5843 /* main.m */,
+				24700D8615B8579C00FA5843 /* DCTMusicModelApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				24700CA415B843E200FA5843 /* DCTMusicModel */,
+				24700CB915B8495000FA5843 /* DCTMusicModelBundle */,
+				24700D7E15B8579C00FA5843 /* DCTMusicModelApp */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24328209104BD8270015874B /* MediaPlayer.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				28D801B30F44B63D00FB423F /* CoreData.framework */,
+				24700CB715B8495000FA5843 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24700CB515B8495000FA5843 /* DCTMusicModelBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24700CC015B8495000FA5843 /* Build configuration list for PBXNativeTarget "DCTMusicModelBundle" */;
+			buildPhases = (
+				24700CB215B8495000FA5843 /* Sources */,
+				24700CB315B8495000FA5843 /* Frameworks */,
+				24700CB415B8495000FA5843 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCTMusicModelBundle;
+			productName = DCTMusicModelBundle;
+			productReference = 24700CB615B8495000FA5843 /* DCTMusicModel.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		24700D7815B8579C00FA5843 /* DCTMusicModelApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24700D8A15B8579C00FA5843 /* Build configuration list for PBXNativeTarget "DCTMusicModelApp" */;
+			buildPhases = (
+				24700D7515B8579C00FA5843 /* Sources */,
+				24700D7615B8579C00FA5843 /* Frameworks */,
+				24700D7715B8579C00FA5843 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCTMusicModelApp;
+			productName = DCTMusicModelApp;
+			productReference = 24700D7915B8579C00FA5843 /* DCTMusicModelApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24C028F715B9818F009B1DE9 /* DCTMusicModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C0290115B9818F009B1DE9 /* Build configuration list for PBXNativeTarget "DCTMusicModel" */;
+			buildPhases = (
+				24C028F415B9818F009B1DE9 /* Sources */,
+				24C028F515B9818F009B1DE9 /* Frameworks */,
+				24C028F615B9818F009B1DE9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24C0293715B981D3009B1DE9 /* PBXTargetDependency */,
+			);
+			name = DCTMusicModel;
+			productName = DCTMusicModel;
+			productReference = 24C028F815B9818F009B1DE9 /* libDCTMusicModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DCTMusicModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24C028F715B9818F009B1DE9 /* DCTMusicModel */,
+				24700CB515B8495000FA5843 /* DCTMusicModelBundle */,
+				24700D7815B8579C00FA5843 /* DCTMusicModelApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24700CB415B8495000FA5843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24700CBE15B8495000FA5843 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24700D7715B8579C00FA5843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24700D8315B8579C00FA5843 /* InfoPlist.strings in Resources */,
+				24700D8E15B857B000FA5843 /* DCTMusicModel.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24700CB215B8495000FA5843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24700CC515B849B500FA5843 /* DCTMusicModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24700D7515B8579C00FA5843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24700D8515B8579C00FA5843 /* main.m in Sources */,
+				24700D8915B8579C00FA5843 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C028F415B9818F009B1DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C0293B15B98218009B1DE9 /* DCTMusicModel.m in Sources */,
+				24C0290615B981AC009B1DE9 /* DCTAlbum.m in Sources */,
+				24C0290815B981AC009B1DE9 /* DCTArtist.m in Sources */,
+				24C0290A15B981AC009B1DE9 /* DCTComposer.m in Sources */,
+				24C0290C15B981AC009B1DE9 /* DCTGenre.m in Sources */,
+				24C0290E15B981AC009B1DE9 /* DCTPlaylist.m in Sources */,
+				24C0291015B981AC009B1DE9 /* DCTSong.m in Sources */,
+				24C0291215B981AC009B1DE9 /* _DCTAlbum.m in Sources */,
+				24C0291415B981AC009B1DE9 /* _DCTArtist.m in Sources */,
+				24C0291615B981AC009B1DE9 /* _DCTComposer.m in Sources */,
+				24C0291815B981AC009B1DE9 /* _DCTGenre.m in Sources */,
+				24C0291A15B981AC009B1DE9 /* _DCTPlaylist.m in Sources */,
+				24C0291C15B981AC009B1DE9 /* _DCTSong.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24C0293715B981D3009B1DE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24700CB515B8495000FA5843 /* DCTMusicModelBundle */;
+			targetProxy = 24C0293615B981D3009B1DE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24700CBC15B8495000FA5843 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24700CBD15B8495000FA5843 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		24700D8115B8579C00FA5843 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24700D8215B8579C00FA5843 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24700CC115B8495000FA5843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTMusicModelBundle/DCTMusicModelBundle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "DCTMusicModelBundle/DCTMusicModelBundle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = DCTMusicModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		24700CC215B8495000FA5843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTMusicModelBundle/DCTMusicModelBundle-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "DCTMusicModelBundle/DCTMusicModelBundle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = DCTMusicModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		24700D8B15B8579C00FA5843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTMusicModelApp/DCTMusicModelApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "DCTMusicModelApp/DCTMusicModelApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		24700D8C15B8579C00FA5843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTMusicModelApp/DCTMusicModelApp-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "DCTMusicModelApp/DCTMusicModelApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		24C0290215B9818F009B1DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/DCTMusicModel.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTMusicModel/DCTMusicModel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		24C0290315B9818F009B1DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/DCTMusicModel.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCTMusicModel/DCTMusicModel-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../**";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../**";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24700CC015B8495000FA5843 /* Build configuration list for PBXNativeTarget "DCTMusicModelBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24700CC115B8495000FA5843 /* Debug */,
+				24700CC215B8495000FA5843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24700D8A15B8579C00FA5843 /* Build configuration list for PBXNativeTarget "DCTMusicModelApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24700D8B15B8579C00FA5843 /* Debug */,
+				24700D8C15B8579C00FA5843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C0290115B9818F009B1DE9 /* Build configuration list for PBXNativeTarget "DCTMusicModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C0290215B9818F009B1DE9 /* Debug */,
+				24C0290315B9818F009B1DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DCTMusicModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		24700CC315B849B500FA5843 /* DCTMusicModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				24700CC415B849B500FA5843 /* DCTMusicModel.xcdatamodel */,
+			);
+			currentVersion = 24700CC415B849B500FA5843 /* DCTMusicModel.xcdatamodel */;
+			path = DCTMusicModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
